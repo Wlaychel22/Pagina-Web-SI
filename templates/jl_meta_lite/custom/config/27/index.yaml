@@ -1,0 +1,88 @@
+name: 27
+timestamp: 1664388334
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: home_-_particles
+  timestamp: 1663251395
+positions:
+  top-a: 'Top A'
+  sliderarticulos: 'Module Position'
+  articulos: 'Module Position'
+sections:
+  top: Top
+  navigation: Navigation
+  slideshow: Slideshow
+  hero: Hero
+  above: Above
+  feature: Feature
+  showcase: Showcase
+  utility: Utility
+  expanded: Expanded
+  extension: Extension
+  bottom: Bottom
+  below: Below
+  copyright: Copyright
+  header: Header
+  sidebar: Sidebar
+  aside: Aside
+  mainbar: Main
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  position:
+    position-position-8103: 'Top A'
+    position-position-4569: 'Module Position'
+    position-position-3274: 'Module Position'
+  jlnavbar:
+    jlnavbar-4357: 'Barra de navegación JL'
+  spacer:
+    spacer-7379: Spacer
+    spacer-5711: Spacer
+    spacer-3381: Spacer
+    spacer-7837: Spacer
+  custom:
+    custom-1789: 'HTML personalizado'
+    custom-3392: 'HTML personalizado'
+  jlimage:
+    jlimage-9266: 'Imagen JL'
+  copyright:
+    copyright-4104: 'Derechos de autor'
+  content:
+    system-content-3922: 'Page Content'
+inherit:
+  17:
+    top: top
+    navigation: navigation
+    hero: hero
+    header: header
+    above: above
+    feature: feature
+    showcase: showcase
+    utility: utility
+    expanded: expanded
+    extension: extension
+    bottom: bottom
+    below: below
+    footer: footer
+    copyright: copyright
+    position-position-8103: position-position-2946
+    jlnavbar-4357: jlnavbar-7196
+    spacer-7379: spacer-6153
+    custom-1789: custom-2811
+    jlimage-9266: jlimage-1952
+    custom-3392: custom-5889
+    spacer-5711: spacer-2830
+    copyright-4104: copyright-9780
+  21:
+    slideshow: slideshow
+    sidebar: sidebar
+    mainbar: mainbar
+    aside: aside
+    position-position-4569: position-position-1327
+    spacer-3381: spacer-3076
+    system-content-3922: system-content-7930
+    position-position-3274: position-position-4700
+    spacer-7837: spacer-6477
+  default:
+    offcanvas: offcanvas

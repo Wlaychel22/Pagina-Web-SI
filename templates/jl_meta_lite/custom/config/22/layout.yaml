@@ -1,0 +1,256 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: home_-_particles
+  timestamp: 1663251395
+layout:
+  top: {  }
+  navigation: {  }
+  slideshow: {  }
+  hero: {  }
+  header: {  }
+  above: {  }
+  feature: {  }
+  showcase: {  }
+  utility: {  }
+  /container-main/:
+    -
+      -
+        'sidebar 10':
+          -
+            - spacer-7087
+      -
+        'mainbar 80':
+          -
+            - 'custom-2565 45'
+            - 'spacer-6988 10'
+            - 'custom-6334 45'
+          -
+            - 'position-position-2154 45'
+            - 'spacer-3473 10'
+            - 'position-position-5899 45'
+          -
+            - jldivider-8064
+          -
+            - system-content-6507
+          -
+            - position-position-8439
+      -
+        'aside 10':
+          -
+            - spacer-4934
+  expanded: {  }
+  extension: {  }
+  bottom: {  }
+  below: {  }
+  footer: {  }
+  copyright: {  }
+  offcanvas: {  }
+structure:
+  top:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  navigation:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  slideshow:
+    type: section
+    inherit:
+      outline: '21'
+      include:
+        - attributes
+        - block
+        - children
+  hero:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  header:
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  above:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  feature:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  showcase:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  utility:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  sidebar:
+    type: section
+    subtype: aside
+    attributes:
+      class: ''
+      variations: 'nomarginall nopaddingall'
+  mainbar:
+    type: section
+    subtype: main
+    title: Main
+    attributes:
+      class: ''
+      variations: ''
+    block:
+      variations: 'nomarginall nopaddingall'
+  aside:
+    attributes:
+      class: ''
+      variations: 'nomarginall nopaddingall'
+  container-main:
+    attributes:
+      boxed: '2'
+      maxwidth: '2'
+      class: jl-section
+      extra: {  }
+  expanded:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  extension:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  bottom:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  below:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  footer:
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  copyright:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  offcanvas:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+content:
+  spacer-7087:
+    inherit:
+      outline: '21'
+      include:
+        - attributes
+        - block
+      particle: spacer-3076
+  custom-2565:
+    title: 'Custom HTML'
+    attributes:
+      html: '<a href="http://192.168.115.36/colegiop/index.php/institucionales"><span class="fas fa-at fa-beat" aria-hidden="true" style="--fa-animation-duration:0.5s; font-size:150px; "></span></a>'
+    block:
+      variations: center
+      extra:
+        -
+          style: 'color:blue;'
+  custom-6334:
+    title: 'Custom HTML'
+    attributes:
+      html: "<a href=\"http://192.168.115.36/colegiop/index.php/enlaces\">\_\_\_<span class=\"fas fa-laptop fa-beat\" aria-hidden=\"true\" style=\"--fa-animation-duration:0.5s; font-size:150px; color:#00539b hover:#78B9F1\"></span></a>"
+    block:
+      variations: center
+  position-position-2154:
+    title: 'Module Position'
+    attributes:
+      key: correos-institucionales
+      chrome: none
+    block:
+      variations: center
+  position-position-5899:
+    title: 'Module Position'
+    attributes:
+      key: enlaces-interes
+      chrome: none
+    block:
+      variations: center
+  jldivider-8064:
+    title: 'JL Divider'
+  system-content-6507:
+    inherit:
+      outline: '21'
+      include:
+        - attributes
+        - block
+      particle: system-content-7930
+  position-position-8439:
+    title: 'Module Position'
+    attributes:
+      key: formulario-contacto
+      chrome: none
+  spacer-4934:
+    inherit:
+      outline: '21'
+      include:
+        - attributes
+        - block
+      particle: spacer-6477

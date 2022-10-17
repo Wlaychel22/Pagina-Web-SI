@@ -1,0 +1,62 @@
+<?php
+return [
+    '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
+    'filename' => 'C:\\xampp\\htdocs\\colegiop/templates/g5_hydrogen/custom/config/14/index.yaml',
+    'modified' => 1663247726,
+    'data' => [
+        'name' => 'default',
+        'timestamp' => 1663247725,
+        'version' => 7,
+        'preset' => [
+            'image' => 'gantry-admin://images/layouts/default.png',
+            'name' => 'default',
+            'timestamp' => 1663247725
+        ],
+        'positions' => [
+            'header' => 'Header',
+            'breadcrumbs' => 'Breadcrumbs',
+            'footer' => 'Footer'
+        ],
+        'sections' => [
+            'header' => 'Header',
+            'navigation' => 'Navigation',
+            'main' => 'Main',
+            'footer' => 'Footer',
+            'offcanvas' => 'Offcanvas'
+        ],
+        'particles' => [
+            'logo' => [
+                'logo-8691' => 'Logo'
+            ],
+            'position' => [
+                'position-header' => 'Header',
+                'position-breadcrumbs' => 'Breadcrumbs',
+                'position-footer' => 'Footer'
+            ],
+            'menu' => [
+                'menu-4664' => 'Menu'
+            ],
+            'messages' => [
+                'system-messages-5874' => 'System Messages'
+            ],
+            'content' => [
+                'system-content-6463' => 'Page Content'
+            ],
+            'copyright' => [
+                'copyright-4070' => 'Copyright'
+            ],
+            'spacer' => [
+                'spacer-9886' => 'Spacer'
+            ],
+            'branding' => [
+                'branding-9761' => 'Branding'
+            ],
+            'mobile-menu' => [
+                'mobile-menu-6720' => 'Mobile-menu'
+            ]
+        ],
+        'inherit' => [
+            
+        ]
+    ]
+];

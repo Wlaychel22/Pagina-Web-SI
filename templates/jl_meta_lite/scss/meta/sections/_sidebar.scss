@@ -1,0 +1,21 @@
+#g-sidebar {
+    background: $main-background;
+    color: $main-text-color;
+    .jl-h4,
+    .g-title {
+        font-size: 22px;
+    }
+    .g-title {
+        margin: 5px 0 20px 0;
+    }
+    .moduletable {
+        margin-bottom: $content-padding;
+    }
+}
+
+@media print {
+    #g-sidebar {
+        background: #fff !important;
+        color: #000 !important;
+    }
+}

@@ -1,0 +1,243 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: home_-_particles
+  timestamp: 1663251395
+layout:
+  top: {  }
+  /navigation/:
+    -
+      - jlnavbar-5127
+  slideshow: {  }
+  hero: {  }
+  header: {  }
+  above: {  }
+  feature: {  }
+  showcase: {  }
+  utility: {  }
+  /container-main/:
+    -
+      -
+        'sidebar 10':
+          -
+            - spacer-8763
+      -
+        'mainbar 80':
+          -
+            - system-content-2546
+          -
+            - position-position-6715
+      -
+        'aside 10':
+          -
+            - spacer-5701
+  expanded: {  }
+  extension: {  }
+  bottom: {  }
+  below: {  }
+  footer: {  }
+  copyright: {  }
+  offcanvas: {  }
+structure:
+  top:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  navigation:
+    type: section
+    attributes:
+      boxed: '2'
+      maxwidth: ''
+      class: ''
+      variations: 'nomarginall nopaddingall'
+  slideshow:
+    type: section
+    inherit:
+      outline: '21'
+      include:
+        - attributes
+        - block
+        - children
+  hero:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  header:
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  above:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  feature:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  showcase:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  utility:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  sidebar:
+    type: section
+    subtype: aside
+    attributes:
+      class: ''
+      variations: 'nomarginall nopaddingall'
+  mainbar:
+    type: section
+    subtype: main
+    title: Main
+    attributes:
+      class: ''
+      variations: 'nomarginall nopaddingall'
+    block:
+      variations: 'nomarginall nopaddingall'
+  aside:
+    attributes:
+      class: ''
+      variations: 'nomarginall nopaddingall'
+  container-main:
+    attributes:
+      boxed: '2'
+      maxwidth: '2'
+      class: jl-section
+      extra: {  }
+  expanded:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  extension:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  bottom:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  below:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  footer:
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  copyright:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  offcanvas:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+content:
+  jlnavbar-5127:
+    title: 'Barra de navegación JL'
+    attributes:
+      text: Meta
+      menu: colegio-san-ignacio
+      hoverExpand: '1'
+      menu_visibility: m
+      m_sticky: stickyonscroll
+      mobile_logo: center
+      mobile_menu_toggle: left
+      menu_animation: offcanvas
+      close_button: '1'
+      module_id: ''
+      navbar_style: extended
+      transparent_header: light
+      logo_color: '#ffffff'
+      layout: right
+      sticky: stickyonscroll
+      search_pos: navbar
+      search_style: modal
+      container_maxwidth: default
+      main_nav_margin: '1'
+    block:
+      class: square-icon
+  spacer-8763:
+    inherit:
+      outline: '21'
+      include:
+        - attributes
+        - block
+      particle: spacer-3076
+  system-content-2546:
+    block:
+      extra:
+        -
+          style: 'height:800px; width:1500px'
+  position-position-6715:
+    title: 'Module Position'
+    attributes:
+      key: articulos
+      chrome: none
+    block:
+      variations: center
+      extra:
+        -
+          style: 'height:800px; width:1500px'
+  spacer-5701:
+    inherit:
+      outline: '21'
+      include:
+        - attributes
+        - block
+      particle: spacer-6477

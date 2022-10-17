@@ -1,0 +1,79 @@
+<?php
+return [
+    '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
+    'filename' => 'C:\\xampp\\htdocs\\colegiop/templates/jl_meta_lite/custom/config/_error/index.yaml',
+    'modified' => 1663599670,
+    'data' => [
+        'name' => '_error',
+        'timestamp' => 1663599670,
+        'version' => 7,
+        'preset' => [
+            'image' => 'gantry-admin://images/layouts/default.png',
+            'name' => '_error',
+            'timestamp' => 1663251395
+        ],
+        'positions' => [
+            'top-a' => 'Top A',
+            'footer-a' => 'Footer A'
+        ],
+        'sections' => [
+            'top' => 'Top',
+            'navigation' => 'Navigation',
+            'hero' => 'Hero',
+            'slideshow' => 'Slideshow',
+            'above' => 'Above',
+            'feature' => 'Feature',
+            'showcase' => 'Showcase',
+            'utility' => 'Utility',
+            'expanded' => 'Expanded',
+            'extension' => 'Extension',
+            'bottom' => 'Bottom',
+            'below' => 'Below',
+            'copyright' => 'Copyright',
+            'header' => 'Header',
+            'sidebar' => 'Sidebar',
+            'aside' => 'Aside',
+            'mainbar' => 'Main',
+            'footer' => 'Footer',
+            'offcanvas' => 'Offcanvas'
+        ],
+        'particles' => [
+            'jlheading' => [
+                'jlheading-6665' => 'JL Heading',
+                'jlheading-2350' => 'JL Heading'
+            ],
+            'jlimage' => [
+                'jlimage-8067' => 'JL Image'
+            ],
+            'content' => [
+                'system-content-2965' => 'Page Content'
+            ],
+            'jlbutton' => [
+                'jlbutton-5036' => 'JL Button'
+            ],
+            'position' => [
+                'position-position-5083' => 'Top A',
+                'position-position-7386' => 'Footer A'
+            ],
+            'jlnavbar' => [
+                'jlnavbar-9721' => 'JL Navbar'
+            ],
+            'copyright' => [
+                'copyright-9345' => 'Copyright'
+            ]
+        ],
+        'inherit' => [
+            'default' => [
+                'top' => 'top',
+                'navigation' => 'navigation',
+                'footer' => 'footer',
+                'copyright' => 'copyright',
+                'offcanvas' => 'offcanvas',
+                'position-position-5083' => 'position-position-8328',
+                'jlnavbar-9721' => 'jlnavbar-2718',
+                'position-position-7386' => 'position-position-8699',
+                'copyright-9345' => 'copyright-6042'
+            ]
+        ]
+    ]
+];

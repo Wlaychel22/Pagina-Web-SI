@@ -1,0 +1,90 @@
+<?php
+return [
+    '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
+    'filename' => 'C:\\xampp\\htdocs\\colegiop/templates/g5_helium/custom/config/13/index.yaml',
+    'modified' => 1663249011,
+    'data' => [
+        'name' => '13',
+        'timestamp' => 1663249011,
+        'version' => 7,
+        'preset' => [
+            'image' => 'gantry-admin://images/layouts/default.png',
+            'name' => 'home_-_particles',
+            'timestamp' => 1663247671
+        ],
+        'positions' => [
+            
+        ],
+        'sections' => [
+            'navigation' => 'Navigation',
+            'intro' => 'Intro',
+            'features' => 'Features',
+            'utility' => 'Utility',
+            'above' => 'Above',
+            'testimonials' => 'Testimonials',
+            'expanded' => 'Expanded',
+            'header' => 'Header',
+            'mainbar' => 'Mainbar',
+            'sidebar' => 'Sidebar',
+            'footer' => 'Footer',
+            'offcanvas' => 'Offcanvas'
+        ],
+        'particles' => [
+            'messages' => [
+                'system-messages-9644' => 'System Messages'
+            ],
+            'logo' => [
+                'logo-4932' => 'Logo / Image',
+                'logo-1828' => 'Logo / Image'
+            ],
+            'menu' => [
+                'menu-6640' => 'Menu'
+            ],
+            'social' => [
+                'social-1234' => 'Social'
+            ],
+            'owlcarousel' => [
+                'owlcarousel-2455' => 'Owl Carousel'
+            ],
+            'custom' => [
+                'custom-5807' => 'Intro',
+                'custom-3119' => 'Features',
+                'custom-7658' => 'Customer Testimonials',
+                'custom-6355' => 'Develop CMS themes quickly'
+            ],
+            'contenttabs' => [
+                'contenttabs-3854' => 'Content Tabs'
+            ],
+            'contentcubes' => [
+                'contentcubes-7850' => 'Content Cubes'
+            ],
+            'copyright' => [
+                'copyright-1740' => 'Copyright'
+            ],
+            'horizontalmenu' => [
+                'horizontalmenu-8940' => 'Horizontal Menu'
+            ],
+            'totop' => [
+                'totop-1993' => 'To Top'
+            ],
+            'mobile-menu' => [
+                'mobile-menu-4755' => 'Mobile-menu'
+            ]
+        ],
+        'inherit' => [
+            'default' => [
+                'system-messages-9644' => 'system-messages-7972',
+                'logo-4932' => 'logo-9608',
+                'menu-6640' => 'menu-6409',
+                'social-1234' => 'social-3171',
+                'footer' => 'footer',
+                'logo-1828' => 'logo-9571',
+                'copyright-1740' => 'copyright-1736',
+                'horizontalmenu-8940' => 'horizontalmenu-9034',
+                'totop-1993' => 'totop-8670',
+                'offcanvas' => 'offcanvas',
+                'mobile-menu-4755' => 'mobile-menu-5697'
+            ]
+        ]
+    ]
+];

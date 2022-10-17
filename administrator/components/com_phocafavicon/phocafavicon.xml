@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" method="upgrade" version="4.0">
+	<name>com_phocafavicon</name>
+	<author>Jan Pavelka (www.phoca.cz)</author>
+	<creationDate>11/12/2021</creationDate>
+	<authorEmail></authorEmail>
+	<authorUrl>https://www.phoca.cz</authorUrl>
+	<copyright>Jan Pavelka</copyright>
+	<license>GNU/GPL</license>
+	<version>4.0.0Beta2</version>
+	<description>COM_PHOCAFAVICON_XML_DESCRIPTION</description>
+	<scriptfile>script.php</scriptfile>
+	<projectName>PhocaFavicon</projectName>
+
+	<install>
+		<sql>
+			<file driver="mysql" charset="utf8">install/sql/mysql/install.utf8.sql</file>
+		</sql>
+	</install>
+
+	<uninstall>
+		<sql>
+			<file driver="mysql" charset="utf8">install/sql/mysql/uninstall.utf8.sql</file>
+		</sql>
+	</uninstall>
+
+	<update>
+		<schemas>
+			<schemapath type="mysql">update/sql/mysql</schemapath>
+		</schemas>
+	</update>
+
+	<files folder="site">
+		<filename>index.html</filename>
+	</files>
+
+	<media destination="com_phocafavicon" folder="media">
+		<folder>duotone</folder>
+		<folder>css</folder>
+		<folder>images</folder>
+		<filename>index.html</filename>
+	</media>
+
+	<languages folder="admin/language">
+		<language tag="en-GB" client="site">en-GB/en-GB.com_phocafavicon.ini</language>
+		<language tag="en-GB" client="site">en-GB/en-GB.com_phocafavicon.sys.ini</language>
+	</languages>
+
+	<administration>
+
+		<menu img="media/com_phocafavicon/images/administrator/icon-16-pf-menu.png" alt="COM_PHOCAFAVICON" link="option=com_phocafavicon">COM_PHOCAFAVICON</menu>
+
+			<submenu>
+				<menu img="media/com_phocafavicon/images/administrator/icon-16-pf-control-panel.png" alt="COM_PHOCAFAVICON_CONTROLPANEL" view="phocafaviconcp" link="option=com_phocafavicon">COM_PHOCAFAVICON_CONTROLPANEL</menu>
+				<menu img="media/com_phocafavicon/images/administrator/icon-16-pf-menu-favicon.png" alt="COM_PHOCAFAVICON_CREATE_FAVICON" view="phocafavicon" link="option=com_phocafavicon&amp;view=phocafavicon">COM_PHOCAFAVICON_CREATE_FAVICON</menu>
+				<menu img="media/com_phocafavicon/images/administrator/icon-16-pf-menu-info.png" alt="COM_PHOCAFAVICON_INFO" view="phocafaviconin" link="option=com_phocafavicon&amp;view=phocafaviconin">COM_PHOCAFAVICON_INFO</menu>
+			</submenu>
+
+		<files folder="admin">
+			<folder>libraries</folder>
+			<folder>controllers</folder>
+			<folder>install</folder>
+			<folder>update</folder>
+			<folder>helpers</folder>
+			<folder>views</folder>
+			<folder>help</folder>
+			<folder>models</folder>
+			<filename>index.html</filename>
+			<filename>config.xml</filename>
+			<filename>phocafavicon.php</filename>
+			<filename>access.xml</filename>
+			<filename>controller.php</filename>
+		</files>
+
+		<languages folder="admin/language">
+			<language tag="en-GB">en-GB/en-GB.com_phocafavicon.ini</language>
+			<language tag="en-GB">en-GB/en-GB.com_phocafavicon.sys.ini</language>
+		</languages>
+	</administration>
+	
+	
+
+	<updateservers>
+		<server type="extension" name="COM_PHOCAFAVICON" priority="1"><![CDATA[https://raw.githubusercontent.com/PhocaCz/PhocaFavicon/master/manifest.xml]]></server>
+	</updateservers>
+</extension>

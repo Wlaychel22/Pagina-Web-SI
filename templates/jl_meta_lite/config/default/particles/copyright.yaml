@@ -1,0 +1,9 @@
+enabled: '1'
+date:
+  start: ''
+  end: now
+owner: 'Meta Joomla 4 Template by <a href="https://joomlead.com/" target="_blank">Joomlead</a>'
+link: ''
+target: _blank
+css:
+  class: ''

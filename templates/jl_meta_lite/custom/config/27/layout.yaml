@@ -1,0 +1,186 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: home_-_particles
+  timestamp: 1663251395
+layout:
+  top: {  }
+  navigation: {  }
+  slideshow: {  }
+  hero: {  }
+  header: {  }
+  above: {  }
+  feature: {  }
+  showcase: {  }
+  utility: {  }
+  /container-main/:
+    -
+      -
+        'sidebar 10': {  }
+      -
+        'mainbar 80': {  }
+      -
+        'aside 10': {  }
+  expanded: {  }
+  extension: {  }
+  bottom: {  }
+  below: {  }
+  footer: {  }
+  copyright: {  }
+  offcanvas: {  }
+structure:
+  top:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  navigation:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - children
+  slideshow:
+    type: section
+    inherit:
+      outline: '21'
+      include:
+        - attributes
+        - block
+        - children
+  hero:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  header:
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  above:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  feature:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  showcase:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  utility:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  sidebar:
+    type: section
+    subtype: aside
+    inherit:
+      outline: '21'
+      include:
+        - attributes
+        - block
+        - children
+  mainbar:
+    type: section
+    subtype: main
+    title: Main
+    inherit:
+      outline: '21'
+      include:
+        - attributes
+        - block
+        - children
+  aside:
+    inherit:
+      outline: '21'
+      include:
+        - attributes
+        - block
+        - children
+  container-main:
+    attributes:
+      boxed: '2'
+      maxwidth: '2'
+      class: jl-section
+      extra: {  }
+  expanded:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  extension:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  bottom:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  below:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  footer:
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  copyright:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  offcanvas:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children

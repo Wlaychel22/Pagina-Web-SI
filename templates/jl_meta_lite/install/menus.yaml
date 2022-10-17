@@ -1,0 +1,9 @@
+meta-theme:
+  title: 'Meta Theme'
+  description: 'Sample menu for the theme.'
+
+  items:
+    meta:
+      title: 'Home'
+      outline: home
+      home: 1

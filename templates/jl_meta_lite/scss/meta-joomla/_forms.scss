@@ -1,0 +1,220 @@
+legend {
+	color: #333333;
+}
+
+legend small {
+	color: #999999;
+}
+
+.input-prepend .chzn-container-single .chzn-single,
+.input-append .chzn-container-single .chzn-single {
+	border-color: $base-border-color;
+}
+
+.input-prepend .chzn-container-single .chzn-drop,
+.input-append .chzn-container-single .chzn-drop {
+	border-color: $base-border-color;
+}
+
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+	height: 40px;
+	vertical-align: middle;
+	display: inline-block;
+	border: 1px solid #e5e5e5;
+	box-sizing: border-box;
+	@include transition(border 0.2s linear, box-shadow 0.2s linear);
+}
+
+#g-header,
+#g-navigation {
+	.search {
+		form {
+			margin-bottom: 0;
+		}
+		input {
+			margin-bottom: 0;
+			border: 0;
+		}
+	}
+}
+
+// Mailto and Print Windows
+.view-mailto,
+.body-only {
+	#g-page-surround {
+		box-shadow: none;
+	}
+}
+// Mod search J3
+.jl-search-default {
+	input.jl-search-input.search-query {
+		width: 100%;
+	}
+}
+
+.contact-form {
+	label.hasPopover {
+		display: inline-block;
+	}
+	.contact_email_copy {
+		.checkbox {
+			.form-check-inline {
+				margin-right: 0;
+			}
+			.form-check-input[type="checkbox"] {
+				float: none;
+			}
+		}
+	}
+}
+#jform_showtitle {
+	margin-bottom: 1rem;
+	padding-left: 0;
+}
+
+.form-select {
+	max-width: 100%;
+	background: url(gantry-media://select-bg.svg) no-repeat 100%/116rem;
+	background-color: #eaedf0;
+	box-shadow: inset 0 1px 2px rgb(0 0 0 / 8%);
+	cursor: pointer;
+}
+
+#modules-form {
+	#options {
+		.accordion-item {
+			.accordion-header {
+				line-height: 1.2;
+				margin: 0;
+			}
+
+			.accordion-body {
+				ul {
+					margin-left: 0;
+				}
+				fieldset {
+					padding-left: 0;
+					margin-bottom: 0;
+				}
+				.control-group {
+					margin-top: 0;
+				}
+			}
+			.accordion-button {
+				box-sizing: border-box;
+			}
+		}
+	}
+	.mb-4 {
+		.choices__inner {
+			box-sizing: border-box;
+		}
+	}
+}
+
+.com_users {
+	#member-profile {
+		#jform_joomlatoken_enabled,
+		#jform_joomlatoken_reset {
+			margin-bottom: 10px;
+			padding-left: 0;
+		}
+	}
+}
+
+#com-content-form {
+	.accordion-header {
+		line-height: 1.2;
+		margin: 0;
+	}
+	.accordion-button {
+		box-sizing: border-box;
+	}
+	.choices__inner {
+		box-sizing: border-box;
+	}
+}
+
+textarea.form-control {
+	min-height: 90px;
+}
+
+.form-select:where(select) {
+	box-sizing: border-box;
+}
+
+.btn.jmodedit {
+	background-color: hsla(0, 0%, 100%, 0.5);
+	border: 1px solid #58595a;
+	border-radius: 0.25rem;
+	color: $accent-color-1;
+	left: auto;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 900;
+}
+.moduletable {
+	* + .jl-h4 {
+		margin-top: 0;
+	}
+}
+.js-calendar {
+	.buttons-wrapper {
+		box-sizing: border-box;
+	}
+	table {
+		border: none;
+		.time td,
+		.calendar-head-row td,
+		.daynames td {
+			border: none;
+		}
+		.calendar-head-row td,
+		.daynames td {
+			border-top: 1px solid #dddddd;
+		}
+	}
+}
+.dir-rtl {
+	.input-group
+		> :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+		margin-right: 0px;
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0;
+		border-top-left-radius: 0.25rem;
+		border-bottom-left-radius: 0.25rem;
+	}
+	.mod-login__userdata {
+		.input-password-toggle {
+			border-top-right-radius: 0;
+			border-bottom-right-radius: 0;
+			border-top-left-radius: 0.1875rem;
+			border-bottom-left-radius: 0.1875rem;
+		}
+	}
+}
+.mod-login__userdata {
+	.input-password-toggle {
+		border-top-right-radius: 0.1875rem;
+		border-bottom-right-radius: 0.1875rem;
+		color: #fff;
+		background-color: #6d757e;
+		border-color: #6d757e;
+	}
+}

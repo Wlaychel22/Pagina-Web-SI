@@ -1,0 +1,208 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: home_-_particles
+  timestamp: 1663251395
+layout:
+  top: {  }
+  navigation: {  }
+  slideshow: {  }
+  hero: {  }
+  header: {  }
+  above: {  }
+  feature: {  }
+  showcase: {  }
+  utility: {  }
+  /container-main/:
+    -
+      -
+        'sidebar 30':
+          -
+            - spacer-3148
+      -
+        'mainbar 40':
+          -
+            - position-position-1024
+      -
+        'aside 30':
+          -
+            - spacer-8020
+  expanded: {  }
+  extension: {  }
+  bottom: {  }
+  below: {  }
+  footer: {  }
+  copyright: {  }
+  offcanvas: {  }
+structure:
+  top:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  navigation:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  slideshow:
+    type: section
+    inherit:
+      outline: '21'
+      include:
+        - attributes
+        - block
+        - children
+  hero:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  header:
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  above:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  feature:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  showcase:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  utility:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  sidebar:
+    type: section
+    subtype: aside
+    attributes:
+      class: ''
+      variations: 'nomarginall nopaddingall'
+  mainbar:
+    type: section
+    subtype: main
+    title: Main
+    attributes:
+      class: ''
+      variations: 'nomarginall nopaddingall'
+    block:
+      variations: 'nomarginall nopaddingall'
+  aside:
+    attributes:
+      class: ''
+      variations: 'nomarginall nopaddingall'
+  container-main:
+    attributes:
+      boxed: '2'
+      maxwidth: '4'
+      class: jl-section
+      extra: {  }
+  expanded:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  extension:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  bottom:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  below:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  footer:
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  copyright:
+    type: section
+    inherit:
+      outline: '17'
+      include:
+        - attributes
+        - block
+        - children
+  offcanvas:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+content:
+  spacer-3148:
+    inherit:
+      outline: '21'
+      include:
+        - attributes
+        - block
+      particle: spacer-3076
+  position-position-1024:
+    title: 'Module Position'
+    attributes:
+      key: login-registro
+      chrome: none
+    block:
+      variations: center
+  spacer-8020:
+    inherit:
+      outline: '21'
+      include:
+        - attributes
+        - block
+      particle: spacer-6477
